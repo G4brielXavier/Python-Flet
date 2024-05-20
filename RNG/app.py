@@ -129,7 +129,7 @@ def main(page: Page):
         ]
     )
     
-    number_sequence = Text("############", weight="w300", size=34)
+    number_sequence = Text("############", weight="w300", size=54)
     btn_roll = TextButton("Roll", on_click=on_roll)
     
     main_actions = Column(
